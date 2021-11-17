@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2021-11-15" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="3.1.3102" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2021-11-11" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="3.1.3102" locale="en_US">
     <description/>
     <view zooming-state="default:3" id="gantt-chart">
         <field id="tpd3" name="Name" width="167" order="0"/>
@@ -39,7 +39,7 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="CSC 351 Class Project Group J" color="#8cb6ce" meeting="false" start="2021-11-15" duration="2" complete="0" thirdDate="2021-11-15" thirdDate-constraint="0" expand="true"/>
+        <task id="0" name="Assign Tasks" color="#8cb6ce" meeting="false" start="2021-11-15" duration="2" complete="0" thirdDate="2021-11-15" thirdDate-constraint="0" expand="true"/>
         <task id="54" name="Create Group Github Account" color="#8cb6ce" meeting="false" start="2021-11-15" duration="2" complete="0" thirdDate="2021-11-11" thirdDate-constraint="0" expand="true"/>
         <task id="11" name="Analysis" meeting="false" start="2021-11-15" duration="9" complete="0" expand="true">
             <task id="1" name="Create DFD" color="#8cb6ce" meeting="false" start="2021-11-15" duration="6" complete="0" thirdDate="2021-11-15" thirdDate-constraint="0" expand="true">
@@ -71,20 +71,26 @@
             <task id="45" name="Test Software" color="#8cb6ce" meeting="false" start="2021-12-06" duration="10" complete="0" thirdDate="2021-11-11" thirdDate-constraint="0" expand="true"/>
         </task>
         <task id="18" name="Deliver System" color="#8cb6ce" meeting="true" start="2021-12-20" duration="0" complete="0" thirdDate="2021-11-15" thirdDate-constraint="0" expand="true"/>
-        <task id="61" name="task_61" meeting="false" start="2021-12-21" duration="1" complete="0" expand="true"/>
-        <task id="65" name="task_65" meeting="false" start="2021-12-31" duration="1" complete="0" expand="true"/>
     </tasks>
     <resources>
-        <resource id="0" name="Jaloon " function="Default:0" contacts="" phone=""/>
-        <resource id="1" name="Bruno" function="Default:0" contacts="" phone=""/>
-        <resource id="2" name="Tasnim" function="Default:1" contacts="" phone=""/>
+        <resource id="0" name="Tasnim" function="Default:0" contacts="" phone=""/>
+        <resource id="1" name="Jaloon" function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="Bruno" function="Default:0" contacts="" phone=""/>
     </resources>
     <allocations>
-        <allocation task-id="54" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="18" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="45" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="58" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
     </allocations>
-    <vacations>
-        <vacation start="2021-11-15" end="2021-11-18" resourceid="0"/>
-    </vacations>
+    <vacations/>
     <previous/>
     <roles roleset-name="Default"/>
 </project>
