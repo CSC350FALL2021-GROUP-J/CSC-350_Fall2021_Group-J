@@ -12,9 +12,7 @@
         } else if(get_reservation_info($_SESSION['session_apt'])) {
             header("Location: ./availableTime.php");
         }
-
-
-    ?>
+?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Schedule</title>
     <link href="style.css" rel="stylesheet">
@@ -46,17 +44,12 @@
                         <h3>AVAILABLE TIME SLOTS</h3>
                         </td>
                 <tr>
-
                     <td class="row"> MONDAY
                     <th>
-
-                        <div data-weekday="Monday" class="timeslots">
-                    
-                            <?php print_available_timeslots('Monday'); ?>
+                    <div data-weekday="Monday" class="timeslots">
+                    <?php print_available_timeslots('Monday'); ?>
                         </div>
-        
-                        </td>
-
+                </td>
                 </tr>
                 <tr>
                     <td class="row">TUESDAY
@@ -85,17 +78,14 @@
                         <div data-weekday="Thursday" class="timeslots">
                             <?php print_available_timeslots('Thursday'); ?>
                         </div>
-
                         </td>
                 </tr>
                 <tr>
                     <td class="row">FRIDAY
                     <th>
-
-                        <div data-weekday="Friday" class="timeslots">
+                            <div data-weekday="Friday" class="timeslots">
                             <?php print_available_timeslots('Friday'); ?>
-                        </div>
-
+                        </tr>
                         </td>
                 </tr>
                 <tr>
@@ -105,18 +95,15 @@
                         <div data-weekday="Saturday" class="timeslots">
                             <?php print_available_timeslots('Saturday'); ?>
                         </div>
-
                         </td>
-                </tr>
-                <tr>
+                        </tr>
+                        <tr>
                     <td class="row">SUNDAY
                     <th>
-
-                        <div data-weekday="Sunday" class="timeslots">
+                       <div data-weekday="Sunday" class="timeslots">
                             <?php print_available_timeslots('Sunday'); ?>
                         </div>
-
-                        </td>
+                </td>
                 </tr>
         </table><br>
 
