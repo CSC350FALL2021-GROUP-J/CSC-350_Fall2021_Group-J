@@ -13,6 +13,7 @@ if(isset($_REQUEST["TimeSlot"]))
 	$result = mysqli_query($connect,$sql);
 }
 ?>
+<?php
 //CHECK THE TIME SLOT LIST
 include "TimeSlotList.php";
 //LIST THE AVAILABLE TIME SLOT LIST
@@ -20,5 +21,5 @@ include "availableTime.php";
 	echo "<p>";
 	echo "<table><tr><td> <form action='signin.php' method ='post'> <input type='submit'>
 	
-
+?>
 
