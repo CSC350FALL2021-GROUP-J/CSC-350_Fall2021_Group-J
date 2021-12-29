@@ -19,7 +19,7 @@ include "TimeSlotList.php";
 //LIST THE AVAILABLE TIME SLOT LIST
 include "availableTime.php";
 	echo "<p>";
-	echo "<table><tr><td> <form action='signin.php' method ='post'> <input type='submit'>;
+	echo "<table><tr><td> <form action='signin.php' method ='post'> <input type='submit'>
 	
 ?>
 
