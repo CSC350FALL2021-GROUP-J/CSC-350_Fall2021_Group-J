@@ -19,6 +19,5 @@ include "availableTime.php";
 	echo "<p>";
 	echo "<table><tr><td> <form action='signin.php' method ='post'> <input type='submit'>
 	
-	
 ?>
 
