@@ -5,8 +5,7 @@
     <?php
         require_once 'TimeSlot.php';
         if(!logged_in()){
-            //working or not working
-            // Login to view this page
+           
             $_SESSION['unauth'] = "You must be logged in to view that page";
             header("Location: ./signin.php");
         } else if(get_reservation_info($_SESSION['session_apt'])) {
